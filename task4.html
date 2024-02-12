@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            height: 100vh;
+            width: 100vw;
+        }
+        .profilepic{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: auto;
+            margin-top: 25px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        h5{
+            color: gray;
+            margin-left: 47%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .content,.seccontent{
+            margin: auto;
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(45deg,white,black);
+        }
+        .seccontent h2{
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(45deg,white,black);
+        }
+        button{
+            border: 1px solid rgba(128, 128, 128, 0.256);
+            margin-left: 45%;
+            margin-top: 20px;
+            background-color: transparent;
+            color: gray;
+            width: 140px;
+            height: 45px;
+        }
+        .brands{
+            width: 100%;
+            height: 20%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color:rgba(128, 128, 128, 0.091) ;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .brands img{
+            width: 15%;
+            height: 80%; 
+        }
+        .last{
+            width: 100%;
+            height: 40%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+        }
+        .one,.two,.three,.four{
+            width: 20%;
+            height: 100%;
+            background-color:rgba(128, 128, 128, 0.091) ;
+            border-radius: 4px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+        .one .fa-pen,.two .fa-mobile,.three .fa-desktop,.four .fa-bolt-lightning{
+            font-size: small;
+            color: gray;
+            margin-top: 50%;
+            margin-left: 15px;
+        }
+        .last h5 ,h6{
+            margin-left: 15px;
+            color: gray ;
+        } 
+    </style>
+</head>
+<body>
+    <div class="profilepic">
+        <img src="pooja pic.jpg" alt="">
+    </div>
+        <h5>Hi, I'm poojashree &nbsp;<i class="fa-solid fa-hand"></i></h5>
+    <div class="content">
+        <h1>Bulding digital</h1>
+        <h1>product, brand, and</h1>
+        <h1>exprince.</h1>
+    </div>
+    <button>latest shots &nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+    <div class="brands">
+        <img src="https://logos-download.com/wp-content/uploads/2016/08/National_Bank_of_Canada_logo.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_of_Matter_connectivity_standard.svg/2560px-Logo_of_Matter_connectivity_standard.svg.png" alt="">
+        <img src="https://cdn.shopify.com/s/files/1/0558/6413/1764/files/Coca-Cola_Logo_Design_History_Evolution_7_1024x1024.jpg?v=1693457622" alt="">
+        <img src="https://blog-api.unity.com/sites/default/files/styles/social_media/public/2013/09/unitygames.jpg?h=c300af86&itok=w0HS5ikj" alt="">
+        <img src="data:image/png;base64,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" alt="">
+    </div>
+    <div class="seccontent">
+        <h2>collabrate to brands and agenceies to</h2>
+        <h2>creat impactful result</h2>
+    </div>
+    <div class="last">
+        <div class="one">
+            <i class="fa-solid fa-pen"></i>           
+            <h5>UI/UX</h5>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ipsum sunt repellendus doloremque repudiandae, architecto tenetur tempora qui quod. Alias repudiandae, expedita sint quis impedit deserunt exercitationem accusantium dignissimos.</h6>       
+        </div>
+        <div class="two">
+            <i class="fa-solid fa-mobile"></i>
+            <h5>UI/UX</h5>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ipsum sunt repellendus doloremque repudiandae, architecto tenetur tempora qui quod. Alias repudiandae, expedita sint quis impedit deserunt exercitationem accusantium dignissimos.</h6>      
+        </div>
+        <div class="three">
+            <i class="fa-solid fa-desktop"></i>
+            <h5>UI/UX</h5>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ipsum sunt repellendus doloremque repudiandae, architecto tenetur tempora qui quod. Alias repudiandae, expedita sint quis impedit deserunt exercitationem accusantium dignissimos.</h6>      
+        </div>
+        <div class="four">
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <h5>UI/UX</h5>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur ipsum sunt repellendus doloremque repudiandae, architecto tenetur tempora qui quod. Alias repudiandae, expedita sint quis impedit deserunt exercitationem accusantium dignissimos.</h6>       
+        </div>
+    </div>
+</body>
+</html>

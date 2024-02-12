@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+          #first{
+            height: 10vh;
+            width: 100vw;
+            background-color: rgb(73, 73, 83);
+            display: flex;
+        }
+        #second{
+            margin-top: 0px;
+            display: flex;
+            height: 7vh;
+            width: 100vw;
+            background-color: rgb(40, 40, 68);
+        }
+        .logo{
+            margin-left: 5%;
+            height: 10vh;
+            width: 10%;
+           
+        }
+        .image{
+            width: 100%;
+            height: 10vh;
+        }
+        #search{
+            width: 60%;
+            height: 10vh;
+            margin-left: 2%;    
+        }
+        #searchs{
+            width: 100%;
+            height: 5vh;
+            margin-top: 2%;
+        }
+        #signin{
+        width: 10%;
+        
+       }
+       #sign{
+        margin-top: 15%;
+        margin-left: 35%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 0px;
+        background-color: red;
+        color: white;
+       }
+       #loc{
+        width: 10%;
+       }
+       #selection{
+        margin-top: 15%;
+        padding: 5px;
+        border: 0px;
+       }
+       #one{
+        margin-top: 0px;
+        display: flex;
+        list-style-type: none;
+        color: white;
+       }
+       li{
+       margin-top: 15px;
+        margin-left: 8%;
+       }
+       .booknow{
+            background-color: red;
+            color: white;
+            width: 80px;
+            height: 30px;
+            border: 0cap;
+            border-radius: 7px;
+        }
+       #two{
+        margin-top: 0px;
+       margin-left: 50%;
+       display: flex;
+       list-style-type: none;
+
+       }
+       a{
+        text-decoration: none;
+        color: white;
+       }
+       .content{
+        display: flex;
+        justify-content: start;
+        margin-top: 15px;
+       }
+       .photo{
+        width: 30%;
+        height: 70vh;
+       }
+       .contact{
+        width: 40%;
+        height: 70vh;
+        margin-left: 20px;
+        background-color:rgba(128, 128, 128, 0.555) ;
+        border-radius: 6px;
+       }
+       h1{
+        margin-left: 40%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       h3{
+        margin-left: 10%;
+        margin-bottom: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .contact input{
+        width: 60%;
+        margin-left: 10%;
+        height: 25px;
+       }
+       textarea{
+        margin-left: 10%;
+        margin-bottom: 15px;
+       }
+       .submit{
+        color: gray;
+        background-color: white;
+        width: 60%;
+        height: 30px;
+        margin-left: 10%;
+        border: 0ch;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px black;
+       }
+       .footer{
+            width: 100vw;
+            height: 30vh;
+            background-color: rgb(40, 40, 68);
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            width: fit-content;
+            margin-left: 35px;
+        }
+        .privecy{
+            width: 30%;
+            text-wrap: wrap;
+            color: white;
+            margin-right: 40px;
+        }
+        .icons{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+       
+
+    </style>
+</head>
+<body>
+          <div class="header">
+        <div id="first">
+            <div class="logo"><img src="http://www.lemondesign.co.in/wordpress/wp-content/uploads/2014/01/logo-on-gray.jpg" alt="" class="image">
+            </div>
+
+            <div id="search"><input type="search" placeholder="search for movie ,Evnets ,plays ,sports ,etc" id="searchs">
+            </div>
+
+            <div id="signin"><a href="task10login.html"><button id="sign">sign in</button></a></div>
+
+            <div id="loc">
+                <form action="">
+                    <select name="city" id="selection">
+                        <option value="bangalore">Bangalore</option>
+                        <option value="bangalore">Mysore</option>
+                        <option value="bangalore">Mangalore</option>
+                    </select>
+                </form>
+            </div>
+            
+
+        </div>
+
+        <div id="second">
+            <ul id="one">
+                <li><a href="task10.html">Home</a></li>
+                <li><a href="task10about.html">About_us</a></li>
+                <li><a href="task10contact.html">Contact</a></li>
+                <li><a href="task10play.html">Plays</a></li>
+                <li><a href="task10event.html">Events</a></li>
+                <li><a href="task10booknow.html"><button class="booknow">booknow</button></a></li>
+            </ul>            
+        </div>
+    </div>
+    <div class="content">
+    <div class="contact">
+        <h1>Contact&nbsp;us</h1>
+        <h3>your&nbsp;Name</h3>
+        <input type="text">
+        <h3>Email&nbsp;id</h3>
+        <input type="email">
+        <h3>Phone&nbsp;number</h3>
+        <input type="text">
+        <h3>Your&nbsp;qeuery</h3>
+        <textarea name="" id="" cols="60" rows="6"></textarea>
+        <button class="submit">submit</button>
+    </div>
+    <div class="photo">
+        <img src="https://thesoftwarepro.com/wp-content/uploads/2017/09/access-queries.png" alt="">
+    </div>
+</div>
+    <div class="footer">
+        <div class="contectdetails">
+            <div class="details"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>8095830461</h3></div>
+            <div class="details"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>#42,1st_main bangalore-560026</h3></div>
+            <div class="details"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>poojamohankumar2000@gmail.com</h3></div>
+        </div>
+        <div class="privecy">
+            <h3>Privacy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores architecto doloribus, optio labore fuga quidem consectetur voluptatum, delectus itaque possimus nisi maxime accusamus error praesentium. Neque ducimus aperiam pariatur!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

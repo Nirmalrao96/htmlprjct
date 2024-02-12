@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw ;
+    height: 100vh;
+}
+.box{
+    width: 60vw;
+    height: 60vh;
+    border: 2px solid black;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.box1,.box2{
+    width:100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2{
+    align-items: self-end;
+    
+}
+.a,.b,.c,.d{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
+.a{
+    background-color: aqua;
+}
+.b{
+    background-color: blueviolet;
+}
+.c{
+    background-color: goldenrod;
+}
+.d{
+    background-color: darkolivegreen;
+}

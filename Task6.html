@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            width: 100vw;
+            height: max-content;
+        }
+        h2{
+            margin-left: 47vw;
+            
+        }
+        .navbar{
+            width: 100vw;
+            height: 35px;
+            background-color: rgb(158, 66, 179);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            list-style: none;
+            margin-left: 20px;
+            color: white;
+            font-size: small;
+            font-weight: 800;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        h3{
+            color: white;
+            font-size: small;
+            font-weight: 800;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-right: 80px; 
+        }
+        .content{
+            width: 80vw;
+            height: 60vh;
+            background-image: url(https://t4.ftcdn.net/jpg/05/96/62/65/360_F_596626503_jrzjZNYStDexiWxQFqO7oCh6M8PdMlJs.jpg);
+            background-position: center;
+            background-size: contain;
+            margin: auto;
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .content h2{
+            margin: 0;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 2px purple;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .content h1{
+            text-shadow: 2px 2px 2px purple;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0;
+            font-size: 50px;
+        }
+        .content button{
+            width: 200px;
+            height: 40px;
+            border-radius: 4px;
+            background-color: rgb(158, 66, 179);
+            color: white;
+            text-shadow: 2px 2px 2px black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .offers{
+            width: 80vw;
+            height: 30vh;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-top: 25px;
+        }
+        .offerone,.offertwo{
+            border: 1px solid gray;
+            height: 100%;
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .offerone h1,.offertwo h1{
+            font-size: xx-large;
+            text-shadow: 1px 1px 1px purple;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .offers h3{
+            color: black;
+            margin-bottom: 2px;
+            font-size: large;
+        }
+        .textcontent{
+            width: 80vw;
+            height: 7vh;
+            overflow: hidden;
+            text-wrap: wrap;
+            margin: auto;
+        }
+        .gallary{
+            width: 100vw;
+            height: 40vh;
+            display: flex;
+            margin-top: 15px;
+        }
+        .gallary img{
+            width: 25%;
+            height: 100%;
+        }
+        .btn button{
+            width: 500px;
+            height: 80px;
+            margin-left: 30vw;
+            margin-top: 10px;
+            border-radius: 4px;
+            background-color: rgb(158, 66, 179);
+            color: white;
+            font-size: x-large;
+            text-shadow: 2px 2px 2px black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .social{
+            width: 50vw;
+            height: 7vh;
+            margin: auto;
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .social img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+        .address{
+            width: 100vw;
+            margin-top: 55px;
+            height: 7vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: 1px solid gray;
+        }
+       .address h3{
+            color: black;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Myntra</h2>
+    <div class="navbar">
+        <ul>
+            <li>NEW</li>
+            <li>Arrival</li>
+            <li>Women</li>
+            <li>MEN</li>
+            <li>WISHLIST</li>
+        </ul>
+        <h3>CART &nbsp;<i class="fa-solid fa-cart-shopping"></i></h3>
+    </div>
+    <div class="content">
+        <h2>Octeber Issue</h2>
+        <h1>Most wanted</h1>
+        <button>Shop Now</button>
+    </div>
+    <div class="offers">
+        <div class="offerone">
+            <h1><i class="fa-solid fa-rotate-right"></i>&nbsp; Free Return</h1>
+            <div class="di">
+                <h3>At Vero eos et accusm it</h3>
+                <h3>justo duo dolore</h3>
+            </div>
+        </div>
+        <div class="offertwo">
+            <h1><i class="fa-solid fa-truck"></i>&nbsp; Free Shipping</h1>
+            <div class="di">
+                <h3>At Vero eos et accusm it</h3>
+                <h3>justo duo dolore</h3>
+            </div>
+        </div>
+    </div>
+    <div class="textcontent">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis incidunt, consequuntur dolore tempore sed corrupti illum tenetur, dolor soluta repudiandae accusamus omnis quod. Odio harum, itaque eum veritatis architecto iusto! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, reprehenderit. Deleniti a pariatur architecto amet, excepturi cumque eum modi vitae illo dicta quisquam, recusandae ipsa aperiam illum sapiente molestias corporis?</p>
+    </div>
+    <div class="gallary">
+        <img src="https://st2.depositphotos.com/4678277/48665/i/450/depositphotos_486655822-stock-photo-portrait-of-attractive-funky-cheerful.jpg" alt="">
+        <img src="https://s3.envato.com/files/338719588/180615-0256.jpg" alt="">
+        <img src="https://images.pexels.com/photos/8676431/pexels-photo-8676431.jpeg" alt="">
+        <img src="https://dynamicmedia.accenture.com/is/image/accenture/Man-Woman-Sitting-With-Purple-Background?qlt=85&wid=1200&ts=1698773949879&$auto-jpg$&fit=constrain&dpr=off" alt="">
+    </div>
+    <div class="btn">
+        <button>Vist our Shopp Now</button>
+    </div>
+
+    <div class="social">
+        <img src="data:image/png;base64,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" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" alt="">
+        <img src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="">
+    </div>
+    <div class="address">
+        <h1>Myntra Shopping mall</h1>
+        <h3>#28 1st main Mysore Road,Byatarayanapura</h3>
+        <h3>Bangalore 560026</h3>
+    </div>
+</body>
+</html>

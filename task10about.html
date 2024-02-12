@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+              #first{
+            height: 10vh;
+            width: 100vw;
+            background-color: rgb(73, 73, 83);
+            display: flex;
+        }
+        #second{
+            margin-top: 0px;
+            display: flex;
+            height: 7vh;
+            width: 100vw;
+            background-color: rgb(40, 40, 68);
+        }
+        .logo{
+            margin-left: 5%;
+            height: 10vh;
+            width: 10%;
+           
+        }
+        .image{
+            width: 100%;
+            height: 10vh;
+        }
+        #search{
+            width: 60%;
+            height: 10vh;
+            margin-left: 2%;    
+        }
+        #searchs{
+            width: 100%;
+            height: 5vh;
+            margin-top: 2%;
+        }
+        #signin{
+        width: 10%;
+        
+       }
+       #sign{
+        margin-top: 15%;
+        margin-left: 35%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 0px;
+        background-color: red;
+        color: white;
+       }
+       #loc{
+        width: 10%;
+       }
+       #selection{
+        margin-top: 15%;
+        padding: 5px;
+        border: 0px;
+       }
+       #one{
+        margin-top: 0px;
+        display: flex;
+        list-style-type: none;
+        color: white;
+       }
+       li{
+       margin-top: 15px;
+        margin-left: 8%;
+       }
+       #two{
+        margin-top: 0px;
+       margin-left: 50%;
+       display: flex;
+       list-style-type: none;
+
+       }
+       a{
+        text-decoration: none;
+        color: white;
+       }
+       .booknow{
+            background-color: red;
+            color: white;
+            width: 80px;
+            height: 30px;
+            border: 0cap;
+            border-radius: 7px;
+        }
+       .aboutus{
+        width: 80vw;
+        margin: auto;
+        height: 30vh;
+        margin-top: 15px;
+        border-radius: 8px;
+        background-color: gray;
+        text-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+       }
+       .aboutus h1{
+        color: white;
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 0;
+       }
+       .aboutus p{
+        color: white;
+       }
+       .service{
+        margin-left: 41vw;
+       }
+       .poster{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 15px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin: auto;
+       }
+       .postercard{
+        width: 30%;
+        height: 100%;
+        text-wrap: wrap;
+        margin-top: 15px;
+        border: 1px solid black;
+       }
+       .postercard img{
+        width: 100%;
+        height: 60%;
+       }
+       .postercard p,h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .footer{
+            width: 100vw;
+            height: 30vh;
+            background-color: rgb(40, 40, 68);
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            width: fit-content;
+            margin-left: 35px;
+        }
+        .privecy{
+            width: 30%;
+            text-wrap: wrap;
+            color: white;
+            margin-right: 40px;
+        }
+        .icons{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div id="first">
+            <div class="logo"><img src="http://www.lemondesign.co.in/wordpress/wp-content/uploads/2014/01/logo-on-gray.jpg" alt="" class="image">
+            </div>
+
+            <div id="search"><input type="search" placeholder="search for movie ,Evnets ,plays ,sports ,etc" id="searchs">
+            </div>
+
+            <div id="signin"><a href="task10login.html"><button id="sign">sign in</button></a></div>
+
+            <div id="loc">
+                <form action="">
+                    <select name="city" id="selection">
+                        <option value="bangalore">Bangalore</option>
+                        <option value="bangalore">Mysore</option>
+                        <option value="bangalore">Mangalore</option>
+                    </select>
+                </form>
+            </div>
+            
+
+        </div>
+
+
+        <div id="second">
+            <ul id="one">
+                <li><a href="task10.html">Home</a></li>
+                <li><a href="task10about.html">About_us</a></li>
+                <li><a href="task10contact.html">Contact</a></li>
+                <li><a href="task10play.html">Plays</a></li>
+                <li><a href="task10event.html">Events</a></li>
+                <li><a href="task10booknow.html"><button class="booknow">booknow</button></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="aboutus">
+        <h1>About&nbsp;us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem recusandae a non quas incidunt ex, maxime porro iste quia dolore sint modi iusto accusamus tempora enim aut quam quaerat distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe hic unde facere dolore? Repellendus error autem rerum temporibus aspernatur expedita! Aut nulla porro minima odit, distinctio et inventore voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam veritatis ratione accusamus reprehenderit minima repellendus. Cum unde saepe incidunt iusto molestiae culpa eveniet explicabo, architecto dolor animi similique aut.</p>
+    </div>
+    <h1 class="service">Service&nbsp;provided</h1>
+
+    <div class="poster">
+        <div class="postercard">
+            <img src="https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg" alt="">
+            <h1>movie&nbsp;booking</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa nemo quis consequuntur libero sint incidunt.</p>
+        </div>
+
+        <div class="postercard">
+            <img src="https://t3.ftcdn.net/jpg/05/83/57/08/360_F_583570851_be9v6zdgynxIsi03oHwnwZfqFLmu5I8O.jpg" alt="">
+            <h1>Play&nbsp;booking</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa nemo quis consequuntur libero sint incidunt.</p>
+        </div>
+
+        <div class="postercard">
+            <img src="https://previews.123rf.com/images/zeber/zeber1506/zeber150600163/41021792-music-event-background.jpg" alt="">
+            <h1>events&nbsp;booking</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa nemo quis consequuntur libero sint incidunt.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contectdetails">
+            <div class="details"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>8095830461</h3></div>
+            <div class="details"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>#42,1st_main bangalore-560026</h3></div>
+            <div class="details"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>poojamohankumar2000@gmail.com</h3></div>
+        </div>
+        <div class="privecy">
+            <h3>Privacy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores architecto doloribus, optio labore fuga quidem consectetur voluptatum, delectus itaque possimus nisi maxime accusamus error praesentium. Neque ducimus aperiam pariatur!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

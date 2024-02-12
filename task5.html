@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .header{
+            width: 100vw;
+            height: 10vh;
+            background-color: white;
+        }
+        .intro{
+            width: 100vw;
+            height: 80vh;
+            background-image: url(https://www.shutterstock.com/image-photo/excited-young-black-man-sitting-260nw-2144756695.jpg);
+            background-position: center;
+            background-size: cover;
+            object-fit: cover;
+            background-position: top;
+            position: relative;
+        }
+        .header h2,h6{
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 65px;
+        }
+        .header h2{
+            margin-top: 10px;
+            margin-bottom: 2px;
+        }
+        .header h6{
+            margin-top: 5px;
+        }
+        .content{
+            width: 40%;
+            height: 60%;
+            position: absolute;
+            left: 50%;
+            top: 25%;
+        }
+        .content h1{
+            color: white;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content h5{
+            margin: 0;
+            margin-top: 5px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        .underline{
+            width: 50%;
+            height: 0px;
+            border-top: 1px dashed black;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        button{
+            width: 50%;
+            height: 35px;
+            background-color: white;
+            color: rgb(120, 198, 232) ;
+            border: 0;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            height: 30vh;
+        }
+        .second h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: normal;
+            margin-top: 25px;
+            margin-bottom:25px ;
+        }
+        .second h5{
+            margin-top: 1px;
+            margin-bottom: 10px;
+        }
+        .second button{
+            border: 1px solid  rgb(120, 198, 232);
+            width: 15%;
+            height: 30px;
+            box-shadow: 1px 1px black;
+        }
+        .third{
+            width: 100vw;
+            height: 40vh;
+            background-color:  rgb(120, 198, 232);
+            display: flex;
+            justify-content: center;
+        }
+        .one{
+            display: flex;
+            width: 30%;
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow-wrap: break-word;
+            overflow: hidden;
+        }
+        .one h3{
+            margin-bottom: 10px;
+        }
+        .one .underline{
+            width: 50px;
+            height: 1px;
+            border-bottom: 1px solid white;
+            border-top: 0;
+        }
+        .footer{
+            width: 100vw;
+            height: 40vh;
+            background-color: rgb(32, 30, 30);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer h2{
+            color: white;
+            margin-bottom: 45px;
+            margin-top: 0px;
+        }
+        .footer h5{
+            color: white;
+            margin-bottom: 5px;
+            margin-top: 2px;
+        }
+        .footer button{
+            width: 15%;
+            height: 30px;
+        }
+        .gallary{
+            width: 100vw;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallary h2{
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          
+          
+        }
+        .photos{
+            width: 60vw;
+            height: 80%;
+            display: flex;
+            flex-wrap: wrap;
+           
+            gap: 0.5rem;
+        }
+        .photos img{
+            width: 18%;
+            height: 43%;
+        }
+        .lastbox{
+            width: 100vw;
+            height: 40vh;
+            margin-top: 20px;
+            background-color: rgb(65, 62, 62);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+        .lastbox h2{
+            margin-bottom: 0;
+            margin-top: 5px;
+        }
+        .lastbox button{
+            width: 15%;
+            height: 30px;
+        }
+        .socialmedia{
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .insta{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            color: gray;
+            width: 10vw;
+            height: 30px;
+        }
+        .socialmedia h6{
+            margin: 0;
+            margin-top: 15px;
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>INDOCHINO</h2><h6>NEFT</h6>
+    </div>
+    <div class="intro">
+        <div class="content">
+            <h1>THE Tailer is in</h1>
+            <h5>The ultimate custome experince</h5>
+            <h5>in now open in india centeral</h5>
+            <div class="underline"></div>
+            <h5>vist us on April 15th</h5>
+            <h5>for discount and offers</h5>
+            <button>Book a Appointment</button>
+        </div>
+    </div>
+    <div class="second">
+        <h2>The made to measure difference</h2>
+        <h5>We create suits and shirts to your customise designe personality</h5>
+        <h5>vist INDOCHINO</h5>
+        <button>SEE THE SUITS</button>
+    </div>
+    <div class="third">
+        <div class="one">
+            <i class="fa-solid fa-ruler"></i>
+            <h3>come see us</h3>
+            <div class="underline"></div>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus animi. Assumenda illum quisquam atque debitis aut suscipit asperiores inventore sit adipisci quia! Ipsum, quisquam possimus et itaque illo corporis!</h6>
+        </div>
+        <div class="one">
+            <i class="fa-solid fa-ruler"></i>
+            <h3>come see us</h3>
+            <div class="underline"></div>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus animi. Assumenda illum quisquam atque debitis aut suscipit asperiores inventore sit adipisci quia! Ipsum,</h6>
+        </div>
+        <div class="one">
+            <i class="fa-solid fa-ruler"></i>
+            <h3>come see us</h3>
+            <div class="underline"></div>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus animi. Assumenda illum quisquam atque debitis aut suscipit asperiores inventore sit adipisci quia! Ipsum, quisquam possimus et itaque illo corporis!</h6>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>vist us on INDOCHINO center</h2>
+        <h5>#28 1st main</h5>
+        <h5>Byatrayanapura Bangalore</h5><br>
+        <h5>Grand opening Feb 14th</h5>
+        <button>BOOK an Appointment</button>
+    </div>
+    <div class="gallary">
+        <h2>#INDOCHINO</h2>
+        <div class="photos">
+            <img src="https://i.etsystatic.com/31737802/r/il/639f37/3798474235/il_570xN.3798474235_gzwt.jpg" alt="">
+            <img src="https://www.irreverentgent.com/wp-content/uploads/2022/12/Best-Suit-Brands-banner-2-1024x652.jpg" alt="">
+            <img src="https://www.cordings.co.uk/media/catalog/category/MENS_LINEN_SUIT_MB_MAY_23_3.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdhON7a4RJ2xra7_HePt1ocguM1TX3Th4nEg&usqp=CAU" alt="">
+            <img src="https://cdn.mos.cms.futurecdn.net/uPTkLTkC2kZiKzWGCs7oG3-1200-80.jpg" alt="">
+            <img src="https://imgeng.jagran.com/images/2023/apr/Best%20Suit%20Brands%20in%20India1681892729890.jpg" alt="">
+            <img src="https://i.etsystatic.com/31737802/r/il/010688/3650041028/il_570xN.3650041028_dzx9.jpg" alt="">
+            <img src="https://cdn-skin.sanaullastore.com/media/catalog/product/cache/1/small_image/542x756/9df78eab33525d08d6e5fb8d27136e95/s/t/stylish-men-coat-pent-collection-03-2ps-04-_1_.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1bxjBaQwIxdZvEc3LcWObLLJs444xu0LTVw&usqp=CAU" alt="">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230707/Ojy5/64a83d08eebac147fc5da118/-473Wx593H-466342242-black-MODEL2.jpg" alt="">
+        </div>
+    </div>
+    <div class="lastbox">
+        <h5>INDOCHINO IN NEWS</h5>
+        <h2>INDOCHINO: the it's-TOO-Good-To-BE</h2>
+        <h2>Trur-That's-Actually-True-custome-suit."</h2>
+        <br>
+        <h5>-Fabulus</h5>
+        <button>BOOK an Appointment</button>
+    </div>
+    <div class="socialmedia">
+        <div class="insta">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <h6>INDOCHINO: the it's-TOO-Good-To-BE  </h6>
+    </div>
+</body>
+</html>

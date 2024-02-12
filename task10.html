@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        #main{
+          height: auto;
+          width: 100%;
+        }
+        #first{
+            height: 10vh;
+            width: 100%;
+            background-color: rgb(73, 73, 83);
+            display: flex;
+        }
+        #second{
+            margin-top: 0px;
+            display: flex;
+            height: 7vh;
+            width: 100%;
+            background-color: rgb(40, 40, 68);
+        }
+        .booknow{
+            background-color: red;
+            color: white;
+            width: 80px;
+            height: 30px;
+            border: 0cap;
+            border-radius: 7px;
+        }
+        #third{
+            height: 30vh;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10px;
+            width: 80%;
+           background-image: url(https://assets-in.bmscdn.com/promotions/cms/creatives/1661504619972_restaura.jpg);
+           background-position: center;
+           background-size: cover;
+           animation: slidding 20s infinite;
+
+        }
+        @keyframes slidding {
+            25%{
+                background-image: url(https://assets-in.bmscdn.com/promotions/cms/creatives/1664905085798_kin.jpg);
+                background-position: center;
+           background-size: cover;
+                left:0px;
+            }
+            50%{
+                background-image: url(https://assets-in.bmscdn.com/promotions/cms/creatives/1664887323197_web.jpg);
+                background-position: center;
+           background-size: cover;
+                left:0px;
+
+            }
+            75%{
+                background-image: url(https://assets-in.bmscdn.com/promotions/cms/creatives/1664542245264_2qwfegrht.jpg);
+                background-position: center;
+           background-size: cover;
+                left:0px;
+
+            }
+            100%{
+                background-image: url(https://assets-in.bmscdn.com/promotions/cms/creatives/1664902305057_prathaa.jpg);
+                background-position: center;
+           background-size: cover;
+                left:0px;
+
+            }
+            
+        }
+        .logo{
+            margin-left: 5%;
+            height: 10vh;
+            width: 10%;
+           
+        }
+        .image{
+            width: 100%;
+            height: 10vh;
+        }
+        #search{
+            width: 60%;
+            height: 10vh;
+            margin-left: 2%;    
+        }
+        #searchs{
+            width: 100%;
+            height: 5vh;
+            margin-top: 2%;
+        }
+        #signin{
+        width: 10%;
+        
+       }
+       #sign{
+        margin-top: 15%;
+        margin-left: 35%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 0px;
+        background-color: red;
+        color: white;
+       }
+       #loc{
+        width: 10%;
+       }
+       #selection{
+        margin-top: 15%;
+        padding: 5px;
+        border: 0px;
+       }
+       #one{
+        margin-top: 0px;
+        display: flex;
+        list-style-type: none;
+        color: white;
+       }
+       li{
+       margin-top: 15px;
+        margin-left: 8%;
+       }
+       #two{
+        margin-top: 0px;
+       margin-left: 50%;
+       display: flex;
+       list-style-type: none;
+
+       }
+       a{
+        text-decoration: none;
+        color: white;
+       }
+       #four{
+        display: flex;
+        margin-top: 10px;
+        height: 60vh;
+        width: 100%;
+        justify-content: space-between;
+       }
+        h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        margin: 0%;
+       }
+       #banner{
+        width: 18%;
+        border: 1px solid black;
+       }
+       #banner h3,h1{
+        margin: 0;
+       }
+       #banner h3{
+        font-size: 100%;
+       }
+       #banner h1{
+        font-size: larger;
+       }
+       .promo{
+        width: 100%;
+        height: 50vh;
+        border-radius: 4px;
+       }
+        .title{
+            background-color: gray;
+            margin-top: 25px;
+        }
+        .footer{
+            width: 100vw;
+            height: 30vh;
+            background-color: rgb(40, 40, 68);
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            width: fit-content;
+            margin-left: 35px;
+        }
+        .privecy{
+            width: 30%;
+            text-wrap: wrap;
+            color: white;
+            margin-right: 40px;
+        }
+        .icons{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="first">
+            <div class="logo"><img src="http://www.lemondesign.co.in/wordpress/wp-content/uploads/2014/01/logo-on-gray.jpg" alt="" class="image">
+            </div>
+
+            <div id="search"><input type="search" placeholder="search for movie ,Evnets ,plays ,sports ,etc" id="searchs">
+            </div>
+
+            <div id="signin"><a href="task10login.html"><button id="sign">sign in</button></a></div>
+
+            <div id="loc">
+                <form action="">
+                    <select name="city" id="selection">
+                        <option value="bangalore">Bangalore</option>
+                        <option value="bangalore">Mysore</option>
+                        <option value="bangalore">Mangalore</option>
+                    </select>
+                </form>
+            </div>
+            
+
+        </div>
+
+
+        <div id="second">
+            <ul id="one">
+                <li><a href="task10.html">home</a></li>
+                <li><a href="task10about.html">About_us</a></li>
+                <li><a href="task10contact.html">Contact</a></li>
+                <li><a href="task10play.html">Plays</a></li>
+                <li><a href="task10event.html">Events</a></li>
+                <li><a href="task10booknow.html"><button class="booknow">booknow</button></a></li>
+            </ul>            
+        </div>
+
+        <div id="third"></div>
+
+        <h1 class="title">Recomended for you</h1>
+        <div id="four">
+            <div id="banner">
+                <img src="https://m.economictimes.com/thumb/msid-95206696,width-1200,height-900,resizemode-4,imgsize-93716/kantara-gets-more-shows-to-replace-thank-god-and-ram-setu-in-several-multiplexes.jpg" alt="" class="promo">
+                <h1>Kanthara</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://m.media-amazon.com/images/M/MV5BYmIxMjM2N2MtYjJiMC00NDNmLWExMDEtZjYyYjIyNjMzMDEwXkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_.jpg" alt="" class="promo">
+                <h1>God Father</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/10/06/ab895bee864c999946c3db3870e62f151665079134368396_original.JPG" alt="" class="promo">
+                <h1>Good bye</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://www.arewablogng.com/wp-content/uploads/2022/11/90ZNPb0M78e.jpg" alt="" class="promo">
+                <h1>ponniyin selvan-part 1</h1>
+                <h3>Action/Adventure/Drama/Hist</h3>
+            </div>
+            <div id="banner">
+                <a href="file:///D:/web%20develop/web_class/book.html"> 
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/f5a21f64af7359f7aaa7c29dee8a12a97630e707cdbf71e0ae6b063322fb8575.jpg" alt="" class="promo"></a>
+                <h1>KGF 2</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+        </div>
+        <h1 class="title">Action</h1>
+        <div id="four">
+            <div id="banner">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGVkOTlhOTktNjZiNS00NDg3LWIxMDAtZTY5Y2E0YjllN2IxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="" class="promo">
+                <h1>Warth_of_man</h1>
+                <h3>Action</h3>
+            </div>
+            <div id="banner">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTg0ODc4Mzk2OF5BMl5BanBnXkFtZTgwNDk2MDkyODE@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="" class="promo">
+                <h1>criminal</h1>
+                <h3>crime/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://images.bauerhosting.com/empire/2016/10/X2-main.jpg?auto=format&w=992&q=80" alt="" class="promo">
+                <h1>X-man</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWq275v06yCn-8qPhsAQvQeSmN1GYLPvJHiw&usqp=CAU" alt="" class="promo">
+                <h1>Mavrik</h1>
+                <h3>Action/Adventure/Drama/Hist</h3>
+            </div>
+            <div id="banner">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRba2PZ_rxfGJLqmzAhyUT6BlDNg_FiyskqNQ&usqp=CAU" alt="" class="promo">
+                <h1>Shooter</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+        </div>
+        <h1 class="title">Comedy</h1>
+        <div id="four">
+            <div id="banner">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRba2PZ_rxfGJLqmzAhyUT6BlDNg_FiyskqNQ&usqp=CAU" alt="" class="promo">
+                <h1>Funny</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasfTCoExSWSvZT0aoPW4XrpR06UEwMChRig&usqp=CAU" alt="" class="promo">
+                <h1>Dicteater</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://filmfare.wwmindia.com/content/2021/aug/best-comedy-movies-hollywood-were-the-millers.jpg" alt="" class="promo">
+                <h1>Miller</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/90s-comedy-films-1656424588.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*" alt="" class="promo">
+                <h1>Home_alone</h1>
+                <h3>Action/Adventure/Drama/Hist</h3>
+            </div>
+            <div id="banner">
+                <img src="https://movieguide.b-cdn.net/wp-content/uploads/2023/07/Screenshot-2023-07-26-at-10.14.38-AM.jpg" alt="" class="promo">
+                <h1>MOM_out</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+        </div>
+        <h1 class="title">Adventure</h1>
+        <div id="four">
+            <div id="banner">
+                <img src="https://www.boredpanda.com/blog/wp-content/uploads/2022/05/adventure_movies_10-6273871bdbc6a__700.jpg" alt="" class="promo">
+                <h1>uncharted</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://m.media-amazon.com/images/M/MV5BMzZlZDQ5NWItY2RjMC00NjRiLTlmZTgtZGE2ODEyMjVlOTJhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="" class="promo">
+                <h1>Aquaman</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00374973-wvhvfmqmup-portrait.jpg" alt="" class="promo">
+                <h1>Apes</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+            <div id="banner">
+                <img src="https://resizing.flixster.com/yHQF35g-bKHGdCx3TabyifPMWew=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13499680_p_v12_bg.jpg" alt="" class="promo">
+                <h1>Jumanji</h1>
+                <h3>Action/Adventure/Drama/Hist</h3>
+            </div>
+            <div id="banner">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/screen-shot-2021-01-07-at-11-34-58-am-1610037340.png" alt="" class="promo">
+                <h1>walk</h1>
+                <h3>Advanture/Drama/Thriller</h3>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contectdetails">
+            <div class="details"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>8095830461</h3></div>
+            <div class="details"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>#42,1st_main bangalore-560026</h3></div>
+            <div class="details"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>poojamohankumar2000@gmail.com</h3></div>
+        </div>
+        <div class="privecy">
+            <h3>Privacy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores architecto doloribus, optio labore fuga quidem consectetur voluptatum, delectus itaque possimus nisi maxime accusamus error praesentium. Neque ducimus aperiam pariatur!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

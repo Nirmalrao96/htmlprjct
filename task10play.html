@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+          #first{
+            height: 10vh;
+            width: 100vw;
+            background-color: rgb(73, 73, 83);
+            display: flex;
+        }
+        #second{
+            margin-top: 0px;
+            display: flex;
+            height: 7vh;
+            width: 100vw;
+            background-color: rgb(40, 40, 68);
+        }
+        .logo{
+            margin-left: 5%;
+            height: 10vh;
+            width: 10%;
+           
+        }
+        .image{
+            width: 100%;
+            height: 10vh;
+        }
+        #search{
+            width: 60%;
+            height: 10vh;
+            margin-left: 2%;    
+        }
+        #searchs{
+            width: 100%;
+            height: 5vh;
+            margin-top: 2%;
+        }
+        #signin{
+        width: 10%;
+        
+       }
+       #sign{
+        margin-top: 15%;
+        margin-left: 35%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 0px;
+        background-color: red;
+        color: white;
+       }
+       #loc{
+        width: 10%;
+       }
+       #selection{
+        margin-top: 15%;
+        padding: 5px;
+        border: 0px;
+       }
+       #one{
+        margin-top: 0px;
+        display: flex;
+        list-style-type: none;
+        color: white;
+       }
+       li{
+       margin-top: 15px;
+        margin-left: 8%;
+       }
+       .booknow{
+            background-color: red;
+            color: white;
+            width: 80px;
+            height: 30px;
+            border: 0cap;
+            border-radius: 7px;
+        }
+       #two{
+        margin-top: 0px;
+       margin-left: 50%;
+       display: flex;
+       list-style-type: none;
+
+       }
+       a{
+        text-decoration: none;
+        color: white;
+       }
+       .poster{
+        width: 100vw;
+        height: 40vh;
+        background-color: rgba(128, 128, 128, 0.484);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .posterimg{
+        width: 80%;
+        height: 90%;
+        border-radius: 8px;
+        overflow: hidden;
+       }
+       .plyinblr{
+        margin-left: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .plays{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+        width: 70vw;
+        height: fit-content;
+        gap: 1rem;
+       }
+       .playcard{
+        width: 15vw;
+        height: 60vh;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        text-wrap: wrap;
+        border-radius: 4px;
+       }
+       .playposter{
+        width: 100%;
+        height: 80%;
+       }
+       .playposter img{
+        width: 100%;
+        height: 100%;
+       }
+       .playcard h2,h4,h5{
+        margin-top: 1px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+       }
+       .footer{
+            width: 100vw;
+            height: 30vh;
+            background-color: rgb(40, 40, 68);
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .details{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            width: fit-content;
+            margin-left: 35px;
+        }
+        .privecy{
+            width: 30%;
+            text-wrap: wrap;
+            color: white;
+            margin-right: 40px;
+        }
+        .icons{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div id="first">
+            <div class="logo"><img src="http://www.lemondesign.co.in/wordpress/wp-content/uploads/2014/01/logo-on-gray.jpg" alt="" class="image">
+            </div>
+
+            <div id="search"><input type="search" placeholder="search for movie ,Evnets ,plays ,sports ,etc" id="searchs">
+            </div>
+
+            <div id="signin"><a href="task10login.html"><button id="sign">sign in</button></a></div>
+
+            <div id="loc">
+                <form action="">
+                    <select name="city" id="selection">
+                        <option value="bangalore">Bangalore</option>
+                        <option value="bangalore">Mysore</option>
+                        <option value="bangalore">Mangalore</option>
+                    </select>
+                </form>
+            </div>
+            
+
+        </div>
+
+
+        <div id="second">
+            <ul id="one">
+                <li><a href="task10.html">Home</a></li>
+                <li><a href="task10about.html">About_us</a></li>
+                <li><a href="task10contact.html">Contact</a></li>
+                <li><a href="task10play.html">Plays</a></li>
+                <li><a href="task10event.html">Events</a></li>
+                <li><a href="task10booknow.html"><button class="booknow">booknow</button></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="poster">
+        <div class="posterimg">
+            <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1706870507474_web.jpg" alt="">
+        </div>
+    </div>
+
+    <h1 class="plyinblr">Plays in Bangalore</h1>
+
+    <div class="plays">
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCA4IEZlYg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00376697-dfwlbpyzlm-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxMSBGZWI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00383065-decunxqlan-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMCBGZWI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00105263-clcpxwtmks-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMCBGZWI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00382521-pjlssjwhnv-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNCBGZWI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00324274-flmcsgffbf-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMCBGZWI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00384578-qyaujrragz-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCA5IEZlYg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00384737-vhtfqjftgk-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+        <div class="playcard">
+            <div class="playposter">
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBGZWI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00384111-gdwlwacafx-portrait.jpg" alt="">
+            </div>
+            <h2>Horror</h2>
+            <h4>Ranga Shankara:Bangalore</h4>
+            <h5>English &nbsp;300rs</h5>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contectdetails">
+            <div class="details"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>8095830461</h3></div>
+            <div class="details"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>#42,1st_main bangalore-560026</h3></div>
+            <div class="details"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;<h3>poojamohankumar2000@gmail.com</h3></div>
+        </div>
+        <div class="privecy">
+            <h3>Privacy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores architecto doloribus, optio labore fuga quidem consectetur voluptatum, delectus itaque possimus nisi maxime accusamus error praesentium. Neque ducimus aperiam pariatur!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
